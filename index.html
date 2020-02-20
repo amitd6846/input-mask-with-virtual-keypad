@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Input Mask Without jQuery Plugin</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/enter-number-with-placeholder.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pos_rel">
+
+            <input type="tel" id="input_box" name="masknumber" maxlength="10" value="" placeholder="−−−−−−−−−−">
+            <input type="tel" id="newBg" maxlength="10" value="−−−−−−−−−−">
+            <div class="carret"></div>
+
+            <div class="numPad">
+                <div class="row">
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="1">1</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="2">2</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="3">3</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="4">4</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="5">5</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="6">6</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="7">7</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="8">8</button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="9">9</button>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-outline-secondary col-4 btndel"><img
+                            src="img/delete.png"></button>
+                    <button type="button" class="btn btn-outline-secondary col-4 btnnum" value="0">0</button>
+                    <div class="col-4 donebtn_outer"><button type="button" class="btn doneBtn">done</button></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="calwidth"></div>
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>
